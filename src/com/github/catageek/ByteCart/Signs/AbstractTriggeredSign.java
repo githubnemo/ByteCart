@@ -83,6 +83,7 @@ public abstract class AbstractTriggeredSign extends AbstractIC {
 				newInv.addItem(stack);
 				//write address
 				myAddress.setAddress(DefaultRoute);
+				ByteCart.myPlugin.getLogger().info("DROUTE: "+DefaultRoute);
 				myAddress.initializeTTL();
 			}
 
